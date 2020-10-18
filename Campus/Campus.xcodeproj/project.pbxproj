@@ -7,10 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E10E2DB1253B9D4100906061 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10E2DB0253B9D4100906061 /* RootViewController.swift */; };
+		E10E2DB3253BA69E00906061 /* ArticleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10E2DB2253BA69E00906061 /* ArticleViewController.swift */; };
+		E10E2DB5253BA6A700906061 /* ArticleRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10E2DB4253BA6A700906061 /* ArticleRow.swift */; };
+		E10E2DB7253BA6B200906061 /* ArticleImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10E2DB6253BA6B200906061 /* ArticleImageCell.swift */; };
+		E10E2DB9253BA6C000906061 /* ArticleTitleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10E2DB8253BA6C000906061 /* ArticleTitleCell.swift */; };
+		E10E2DBB253BA6CC00906061 /* ArticleTextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10E2DBA253BA6CC00906061 /* ArticleTextCell.swift */; };
+		E10E2DBE253BB51E00906061 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10E2DBD253BB51E00906061 /* MapViewController.swift */; };
+		E10E2DC1253BCB3D00906061 /* CardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10E2DC0253BCB3D00906061 /* CardViewController.swift */; };
+		E10E2DC3253BCB8400906061 /* CardRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10E2DC2253BCB8400906061 /* CardRow.swift */; };
+		E10E2DC5253BCC6C00906061 /* CardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10E2DC4253BCC6C00906061 /* CardCell.swift */; };
+		E10E2DC7253BCCEE00906061 /* CardBalanceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10E2DC6253BCCEE00906061 /* CardBalanceCell.swift */; };
+		E10E2DCA253BCEF400906061 /* TransactionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10E2DC9253BCEF400906061 /* TransactionCell.swift */; };
+		E10E2DCD253BD35100906061 /* CoursesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10E2DCC253BD35100906061 /* CoursesViewController.swift */; };
+		E10E2DCF253BD43100906061 /* CoursesRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10E2DCE253BD43100906061 /* CoursesRow.swift */; };
+		E10E2DD1253BD46300906061 /* CourseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10E2DD0253BD46300906061 /* CourseCell.swift */; };
+		E10E2DD4253BD65C00906061 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10E2DD3253BD65C00906061 /* ProfileViewController.swift */; };
+		E1194654253B87A500F7FF0A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1194653253B87A500F7FF0A /* HomeViewController.swift */; };
+		E1194657253B883A00F7FF0A /* HomeRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1194656253B883A00F7FF0A /* HomeRow.swift */; };
+		E1194659253B89AD00F7FF0A /* HomeNewsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1194658253B89AD00F7FF0A /* HomeNewsCell.swift */; };
+		E119465B253B8E1A00F7FF0A /* HomeWeatherCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E119465A253B8E1A00F7FF0A /* HomeWeatherCell.swift */; };
+		E119465E253B93CF00F7FF0A /* HomeItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E119465D253B93CF00F7FF0A /* HomeItemCell.swift */; };
+		E1194660253B975C00F7FF0A /* CampusTabbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E119465F253B975C00F7FF0A /* CampusTabbar.swift */; };
 		E18E64C4253AB6200069B4E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E18E64C3253AB6200069B4E7 /* AppDelegate.swift */; };
 		E18E64C6253AB6200069B4E7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E18E64C5253AB6200069B4E7 /* SceneDelegate.swift */; };
-		E18E64C8253AB6200069B4E7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E18E64C7253AB6200069B4E7 /* ViewController.swift */; };
-		E18E64CB253AB6200069B4E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E18E64C9253AB6200069B4E7 /* Main.storyboard */; };
 		E18E64CD253AB6200069B4E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E18E64CC253AB6200069B4E7 /* Assets.xcassets */; };
 		E18E64D0253AB6200069B4E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E18E64CE253AB6200069B4E7 /* LaunchScreen.storyboard */; };
 		E18E64E2253AB63C0069B4E7 /* SharedPips.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E18E64DD253AB6330069B4E7 /* SharedPips.framework */; };
@@ -42,11 +62,31 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		E10E2DB0253B9D4100906061 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		E10E2DB2253BA69E00906061 /* ArticleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleViewController.swift; sourceTree = "<group>"; };
+		E10E2DB4253BA6A700906061 /* ArticleRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleRow.swift; sourceTree = "<group>"; };
+		E10E2DB6253BA6B200906061 /* ArticleImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleImageCell.swift; sourceTree = "<group>"; };
+		E10E2DB8253BA6C000906061 /* ArticleTitleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleTitleCell.swift; sourceTree = "<group>"; };
+		E10E2DBA253BA6CC00906061 /* ArticleTextCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleTextCell.swift; sourceTree = "<group>"; };
+		E10E2DBD253BB51E00906061 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		E10E2DC0253BCB3D00906061 /* CardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewController.swift; sourceTree = "<group>"; };
+		E10E2DC2253BCB8400906061 /* CardRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardRow.swift; sourceTree = "<group>"; };
+		E10E2DC4253BCC6C00906061 /* CardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCell.swift; sourceTree = "<group>"; };
+		E10E2DC6253BCCEE00906061 /* CardBalanceCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardBalanceCell.swift; sourceTree = "<group>"; };
+		E10E2DC9253BCEF400906061 /* TransactionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionCell.swift; sourceTree = "<group>"; };
+		E10E2DCC253BD35100906061 /* CoursesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoursesViewController.swift; sourceTree = "<group>"; };
+		E10E2DCE253BD43100906061 /* CoursesRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoursesRow.swift; sourceTree = "<group>"; };
+		E10E2DD0253BD46300906061 /* CourseCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseCell.swift; sourceTree = "<group>"; };
+		E10E2DD3253BD65C00906061 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		E1194653253B87A500F7FF0A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		E1194656253B883A00F7FF0A /* HomeRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRow.swift; sourceTree = "<group>"; };
+		E1194658253B89AD00F7FF0A /* HomeNewsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeNewsCell.swift; sourceTree = "<group>"; };
+		E119465A253B8E1A00F7FF0A /* HomeWeatherCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeWeatherCell.swift; sourceTree = "<group>"; };
+		E119465D253B93CF00F7FF0A /* HomeItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeItemCell.swift; sourceTree = "<group>"; };
+		E119465F253B975C00F7FF0A /* CampusTabbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampusTabbar.swift; sourceTree = "<group>"; };
 		E18E64C0253AB6200069B4E7 /* Campus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Campus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E18E64C3253AB6200069B4E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E18E64C5253AB6200069B4E7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E18E64C7253AB6200069B4E7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E18E64CA253AB6200069B4E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E18E64CC253AB6200069B4E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E18E64CF253AB6200069B4E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E18E64D1253AB6200069B4E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -65,6 +105,52 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E10E2DBC253BA7B000906061 /* ArticleViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E10E2DB2253BA69E00906061 /* ArticleViewController.swift */,
+				E10E2DB4253BA6A700906061 /* ArticleRow.swift */,
+				E10E2DB6253BA6B200906061 /* ArticleImageCell.swift */,
+				E10E2DB8253BA6C000906061 /* ArticleTitleCell.swift */,
+				E10E2DBA253BA6CC00906061 /* ArticleTextCell.swift */,
+			);
+			path = ArticleViewController;
+			sourceTree = "<group>";
+		};
+		E10E2DC8253BCE9800906061 /* CardViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E10E2DC0253BCB3D00906061 /* CardViewController.swift */,
+				E10E2DC2253BCB8400906061 /* CardRow.swift */,
+				E10E2DC4253BCC6C00906061 /* CardCell.swift */,
+				E10E2DC9253BCEF400906061 /* TransactionCell.swift */,
+				E10E2DC6253BCCEE00906061 /* CardBalanceCell.swift */,
+			);
+			path = CardViewController;
+			sourceTree = "<group>";
+		};
+		E10E2DD2253BD5B400906061 /* CoursesViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E10E2DCC253BD35100906061 /* CoursesViewController.swift */,
+				E10E2DCE253BD43100906061 /* CoursesRow.swift */,
+				E10E2DD0253BD46300906061 /* CourseCell.swift */,
+			);
+			path = CoursesViewController;
+			sourceTree = "<group>";
+		};
+		E119465C253B8E3200F7FF0A /* HomeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E1194653253B87A500F7FF0A /* HomeViewController.swift */,
+				E1194656253B883A00F7FF0A /* HomeRow.swift */,
+				E119465A253B8E1A00F7FF0A /* HomeWeatherCell.swift */,
+				E119465D253B93CF00F7FF0A /* HomeItemCell.swift */,
+				E1194658253B89AD00F7FF0A /* HomeNewsCell.swift */,
+			);
+			path = HomeViewController;
+			sourceTree = "<group>";
+		};
 		E18E64B7253AB6200069B4E7 = {
 			isa = PBXGroup;
 			children = (
@@ -88,8 +174,14 @@
 			children = (
 				E18E64C3253AB6200069B4E7 /* AppDelegate.swift */,
 				E18E64C5253AB6200069B4E7 /* SceneDelegate.swift */,
-				E18E64C7253AB6200069B4E7 /* ViewController.swift */,
-				E18E64C9253AB6200069B4E7 /* Main.storyboard */,
+				E119465F253B975C00F7FF0A /* CampusTabbar.swift */,
+				E10E2DB0253B9D4100906061 /* RootViewController.swift */,
+				E10E2DD3253BD65C00906061 /* ProfileViewController.swift */,
+				E10E2DBD253BB51E00906061 /* MapViewController.swift */,
+				E10E2DD2253BD5B400906061 /* CoursesViewController */,
+				E10E2DC8253BCE9800906061 /* CardViewController */,
+				E10E2DBC253BA7B000906061 /* ArticleViewController */,
+				E119465C253B8E3200F7FF0A /* HomeViewController */,
 				E18E64CC253AB6200069B4E7 /* Assets.xcassets */,
 				E18E64CE253AB6200069B4E7 /* LaunchScreen.storyboard */,
 				E18E64D1253AB6200069B4E7 /* Info.plist */,
@@ -188,7 +280,6 @@
 			files = (
 				E18E64D0253AB6200069B4E7 /* LaunchScreen.storyboard in Resources */,
 				E18E64CD253AB6200069B4E7 /* Assets.xcassets in Resources */,
-				E18E64CB253AB6200069B4E7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -199,23 +290,36 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E18E64C8253AB6200069B4E7 /* ViewController.swift in Sources */,
+				E10E2DB7253BA6B200906061 /* ArticleImageCell.swift in Sources */,
+				E10E2DCF253BD43100906061 /* CoursesRow.swift in Sources */,
+				E10E2DC3253BCB8400906061 /* CardRow.swift in Sources */,
+				E10E2DB1253B9D4100906061 /* RootViewController.swift in Sources */,
 				E18E64C4253AB6200069B4E7 /* AppDelegate.swift in Sources */,
 				E18E64C6253AB6200069B4E7 /* SceneDelegate.swift in Sources */,
+				E10E2DD4253BD65C00906061 /* ProfileViewController.swift in Sources */,
+				E10E2DB9253BA6C000906061 /* ArticleTitleCell.swift in Sources */,
+				E1194659253B89AD00F7FF0A /* HomeNewsCell.swift in Sources */,
+				E10E2DB3253BA69E00906061 /* ArticleViewController.swift in Sources */,
+				E10E2DCD253BD35100906061 /* CoursesViewController.swift in Sources */,
+				E1194660253B975C00F7FF0A /* CampusTabbar.swift in Sources */,
+				E1194657253B883A00F7FF0A /* HomeRow.swift in Sources */,
+				E10E2DBB253BA6CC00906061 /* ArticleTextCell.swift in Sources */,
+				E119465E253B93CF00F7FF0A /* HomeItemCell.swift in Sources */,
+				E1194654253B87A500F7FF0A /* HomeViewController.swift in Sources */,
+				E10E2DC1253BCB3D00906061 /* CardViewController.swift in Sources */,
+				E10E2DD1253BD46300906061 /* CourseCell.swift in Sources */,
+				E119465B253B8E1A00F7FF0A /* HomeWeatherCell.swift in Sources */,
+				E10E2DB5253BA6A700906061 /* ArticleRow.swift in Sources */,
+				E10E2DC7253BCCEE00906061 /* CardBalanceCell.swift in Sources */,
+				E10E2DBE253BB51E00906061 /* MapViewController.swift in Sources */,
+				E10E2DCA253BCEF400906061 /* TransactionCell.swift in Sources */,
+				E10E2DC5253BCC6C00906061 /* CardCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		E18E64C9253AB6200069B4E7 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E18E64CA253AB6200069B4E7 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E18E64CE253AB6200069B4E7 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
