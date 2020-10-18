@@ -28,9 +28,9 @@ class HomeViewController: BasicViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.navigationController?.addColor(.red)
+//        self.navigationController?.addColor(.red)
         
-        let logo = UIImage(named: "u")?.withRenderingMode(.alwaysTemplate)
+        let logo = SchoolState.core.state.logo.withRenderingMode(.alwaysTemplate)
         let imageView = UIImageView(frame: CGRect(x: 0, y: 0, width: 20, height: 20))
         imageView.tintColor = .white
         imageView.contentMode = .scaleAspectFit

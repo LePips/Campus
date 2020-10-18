@@ -23,6 +23,8 @@
 		E10E2DCF253BD43100906061 /* CoursesRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10E2DCE253BD43100906061 /* CoursesRow.swift */; };
 		E10E2DD1253BD46300906061 /* CourseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10E2DD0253BD46300906061 /* CourseCell.swift */; };
 		E10E2DD4253BD65C00906061 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10E2DD3253BD65C00906061 /* ProfileViewController.swift */; };
+		E10E2DD6253CE0CC00906061 /* ProfileCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10E2DD5253CE0CC00906061 /* ProfileCell.swift */; };
+		E10E2DD9253CE2DB00906061 /* SchoolState.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10E2DD8253CE2DB00906061 /* SchoolState.swift */; };
 		E1194654253B87A500F7FF0A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1194653253B87A500F7FF0A /* HomeViewController.swift */; };
 		E1194657253B883A00F7FF0A /* HomeRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1194656253B883A00F7FF0A /* HomeRow.swift */; };
 		E1194659253B89AD00F7FF0A /* HomeNewsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1194658253B89AD00F7FF0A /* HomeNewsCell.swift */; };
@@ -78,6 +80,8 @@
 		E10E2DCE253BD43100906061 /* CoursesRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoursesRow.swift; sourceTree = "<group>"; };
 		E10E2DD0253BD46300906061 /* CourseCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseCell.swift; sourceTree = "<group>"; };
 		E10E2DD3253BD65C00906061 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		E10E2DD5253CE0CC00906061 /* ProfileCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCell.swift; sourceTree = "<group>"; };
+		E10E2DD8253CE2DB00906061 /* SchoolState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolState.swift; sourceTree = "<group>"; };
 		E1194653253B87A500F7FF0A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		E1194656253B883A00F7FF0A /* HomeRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRow.swift; sourceTree = "<group>"; };
 		E1194658253B89AD00F7FF0A /* HomeNewsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeNewsCell.swift; sourceTree = "<group>"; };
@@ -139,6 +143,15 @@
 			path = CoursesViewController;
 			sourceTree = "<group>";
 		};
+		E10E2DD7253CE0D000906061 /* ProfileViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E10E2DD3253BD65C00906061 /* ProfileViewController.swift */,
+				E10E2DD5253CE0CC00906061 /* ProfileCell.swift */,
+			);
+			path = ProfileViewController;
+			sourceTree = "<group>";
+		};
 		E119465C253B8E3200F7FF0A /* HomeViewController */ = {
 			isa = PBXGroup;
 			children = (
@@ -173,10 +186,11 @@
 			isa = PBXGroup;
 			children = (
 				E18E64C3253AB6200069B4E7 /* AppDelegate.swift */,
+				E10E2DD8253CE2DB00906061 /* SchoolState.swift */,
 				E18E64C5253AB6200069B4E7 /* SceneDelegate.swift */,
 				E119465F253B975C00F7FF0A /* CampusTabbar.swift */,
 				E10E2DB0253B9D4100906061 /* RootViewController.swift */,
-				E10E2DD3253BD65C00906061 /* ProfileViewController.swift */,
+				E10E2DD7253CE0D000906061 /* ProfileViewController */,
 				E10E2DBD253BB51E00906061 /* MapViewController.swift */,
 				E10E2DD2253BD5B400906061 /* CoursesViewController */,
 				E10E2DC8253BCE9800906061 /* CardViewController */,
@@ -309,11 +323,13 @@
 				E10E2DC1253BCB3D00906061 /* CardViewController.swift in Sources */,
 				E10E2DD1253BD46300906061 /* CourseCell.swift in Sources */,
 				E119465B253B8E1A00F7FF0A /* HomeWeatherCell.swift in Sources */,
+				E10E2DD6253CE0CC00906061 /* ProfileCell.swift in Sources */,
 				E10E2DB5253BA6A700906061 /* ArticleRow.swift in Sources */,
 				E10E2DC7253BCCEE00906061 /* CardBalanceCell.swift in Sources */,
 				E10E2DBE253BB51E00906061 /* MapViewController.swift in Sources */,
 				E10E2DCA253BCEF400906061 /* TransactionCell.swift in Sources */,
 				E10E2DC5253BCC6C00906061 /* CardCell.swift in Sources */,
+				E10E2DD9253CE2DB00906061 /* SchoolState.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

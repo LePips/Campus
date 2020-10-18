@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import SharedPips
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
@@ -20,6 +21,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         window = UIWindow(windowScene: winscene)
         window?.rootViewController = RootViewController()
         window?.makeKeyAndVisible()
+        SchoolState.core.addSubscriber(subscriber: self, update: SceneDelegate.update)
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {
@@ -49,7 +51,10 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // Use this method to save data, release shared resources, and store enough scene-specific state information
         // to restore the scene back to its current state.
     }
-
-
 }
 
+extension SceneDelegate: Subscriber {
+    func update(with state: SchoolState) {
+        window?.rootViewController = RootViewController()
+    }
+}
